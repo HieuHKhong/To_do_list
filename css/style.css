@@ -1,0 +1,37 @@
+body{
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-size: normal;
+    background-color: rgb(199, 247, 231);
+}
+
+.ToDoList h3{
+    font-size: 40px;
+    border-bottom: black solid 1px;
+    margin-bottom: 3%;
+    padding-bottom: 3%;
+}
+
+.Title {
+    text-align: center;
+    margin: 5% 0% 5% 0%;
+}
+
+.Title h1{
+    font-size: 50px;
+}
+
+.AddTask{
+    border-right: black solid 1px;
+    padding-bottom: 2%;
+}
+
+
+.displayTask{
+    background-color: aliceblue;
+}
+
+.displayTask ol li{
+    font-size: 30px;
+}
