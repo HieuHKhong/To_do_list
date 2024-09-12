@@ -22,16 +22,66 @@ body{
     font-size: 50px;
 }
 
-.AddTask{
-    border-right: black solid 1px;
-    padding-bottom: 2%;
+#Input{
+    width: 75%;
+    font-size: 20px;
 }
 
+#edit{
+    background-color: rgb(141, 141, 251);
+    color: rgb(219, 219, 219);
+}
+
+#done{
+    background-color: rgb(6, 189, 6);
+    color: rgb(219, 219, 219);
+}
+
+#delete{
+    background-color: rgb(255, 46, 46);
+    color: rgb(219, 219, 219);
+
+}
 
 .displayTask{
     background-color: aliceblue;
 }
 
 .displayTask ol li{
-    font-size: 30px;
+    font-size: 20px;
 }
+
+.displayTask ol li button{
+    float: right;
+    font-size: 70%;
+    margin-top: 0%;
+    margin-right: 1%;
+    border: none;
+}
+
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
+@media (max-width: 991px){
+   
+    .displayTask{
+        background-color: aliceblue;
+        margin-top: 10%;
+    }
+
+}
+
+@media (max-width : 320px){
+    .displayTask ol li button{
+        font-size: 40%;
+        margin-top: 2%;
+    }
+
+    #Input{
+        width: 50%;
+    }
+    
+}
+
